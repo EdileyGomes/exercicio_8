@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../images/fotinha.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#formularios {
+    width: 700px;
+    max-width: 700px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#nome, #telefone {
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+}
+
+button {
+    background-image: linear-gradient(to right, #AA4A2D, #740D10);
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    transition: all 0.3s ease-in;
+    width: 100px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to right,#740D10, #AA4A2D);
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    background-image: linear-gradient(to right,#740D10, #AA4A2D);
+    width: 700px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 40px ;
+    transition: all 0.3 ease-in-out;
+}
+
+table {
+    width: 600px;
+    max-width: 650px;
+    color: white;
+    background-image: linear-gradient(68deg, #3b3837,#000000, #3b3837);
+    margin: 70px auto;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+table:hover {
+    transform: translateY(-3px);
+}
+
+td, th {
+    padding: 12px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bolder;
+    background: linear-gradient(to right,#9c1212,#f76363);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
